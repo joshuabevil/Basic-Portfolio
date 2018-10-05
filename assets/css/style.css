@@ -87,6 +87,32 @@ p {
     margin-bottom: 20px;
 }
 
+label {
+    font-size: 18px;
+    display: block
+}
+
+input, textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 300px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+}
 #left-column h2 {
     font-size: 24px;
     padding: 15px 0;
