@@ -59,7 +59,7 @@ nav ul li:last-child a {
     background: white;
     padding: 30px;
     border: 2px solid #ccc;
-    width: 960px;
+    width: 100%;
 }
 
 p {
@@ -106,7 +106,6 @@ form button {
 .wrapper {
     width: 960px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .inline-img {
@@ -121,6 +120,10 @@ form button {
     width: 45%;
     float: left;
     height: 200px;
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
 }
 
 .clearfix {
@@ -144,6 +147,7 @@ footer {
     background-repeat: no-repeat;
     width: 250px;
     height: 200px;
+    
 }
 
 #port2 {
@@ -152,6 +156,8 @@ footer {
     background-repeat: no-repeat;
     width: 250px;
     height: 200px;
+    right: 150px;
+    left: -55px;
 }
 
 #port3 {
@@ -160,6 +166,7 @@ footer {
     background-repeat: no-repeat;
     width: 250px;
     height: 200px;
+
 }
 
 #port4 {
@@ -168,6 +175,7 @@ footer {
     background-repeat: no-repeat;
     width: 250px;
     height: 200px;
+    left: -55px;
 }
 
 #port5 {
@@ -175,7 +183,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     width: 250px;
-    height: 200px;
+    height: 200px
 }
 
 .portfolio-item h4 {
@@ -186,4 +194,15 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 15px;
+}
+
+.wrapper2 {
+    overflow: hidden;
+    height: 650px;
+    width: 600px;
+}
+
+.foot {
+    position: fixed; bottom: 0;
+    width: 100%;
 }
