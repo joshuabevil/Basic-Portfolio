@@ -123,10 +123,6 @@ form button {
     height: 200px;
 }
 
-.portfolio-item:nth-of-type(even) {
-    float: right;
-}
-
 .clearfix {
     display: block;
     clear: both;
@@ -146,30 +142,40 @@ footer {
     background: url("../images/port1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
 }
 
 #port2 {
     background: url("../images/port2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
 }
 
 #port3 {
     background: url("../images/port3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
 }
 
 #port4 {
     background: url("../images/port4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
 }
 
 #port5 {
     background: url("../images/port5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
 }
 
 .portfolio-item h4 {
