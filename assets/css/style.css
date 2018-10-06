@@ -53,27 +53,8 @@ nav ul li:last-child a {
     border-right: none;
     padding-right: none;
 }
-.wrapper {
-    width: 960px;
-    margin: 0 auto;
-}
 
-.inline-img {
-    float: left;
-    margin: 0 15px 15px 0;
-    border: 1px solid #777777;
-}
-
-footer {
-    background: #666;
-    border-top: 5px solid #4aaaa5;
-    color: #ccc;
-    text-align: center;
-    padding: 40px;
-    margin-top: 30px;
-}
-
-#left-column {
+#column {
     line-height: 20px;
     background: white;
     padding: 30px;
@@ -113,10 +94,90 @@ form button {
     font-size: 18px;
     border: none;
 }
-#left-column h2 {
+
+#column h2 {
     font-size: 24px;
     padding: 15px 0;
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
 
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777777;
+}
+
+.portfolio-item {
+    position: relative;
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 200px;
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+
+footer {
+    background: #666;
+    border-top: 5px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+#port1 {
+    background: url("../images/port1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port2 {
+    background: url("../images/port2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port3 {
+    background: url("../images/port3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port4 {
+    background: url("../images/port4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port5 {
+    background: url("../images/port5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
 }
